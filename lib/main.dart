@@ -6,6 +6,7 @@ void main() => runApp (
 			appBar: AppBar(
 				title: Text("Sup!"),
 				centerTitle: true,
+				backgroundColor: Colors.red,
 			),
 			body: Center(
 				child: Text("Sup Dude! \nThis is a Text"),
