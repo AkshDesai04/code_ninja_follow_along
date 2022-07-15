@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MaterialApp(
-  home: Text("SUP!"),
+void main() => runApp (
+	MaterialApp (
+  		home: Scaffold (
+			appBar: AppBar(
+				title: Text("Sup!")
+			),
+		),
 ));
