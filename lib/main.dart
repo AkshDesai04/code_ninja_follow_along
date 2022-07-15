@@ -9,7 +9,16 @@ void main() => runApp (
 				backgroundColor: Colors.red,
 			),
 			body: Center(
-				child: Text("Sup Dude! \nThis is a Text"),
+				child: Text(
+					"Sup Dude! \nThis is a Text",
+					style: TextStyle(
+						fontSize: 30,
+						fontWeight: FontWeight.bold,
+						letterSpacing: 2,
+						color: Colors.grey[600],
+						backgroundColor: Colors.red[300],
+					),
+				),
 			),
 			floatingActionButton: FloatingActionButton(
 				onPressed: () {  },
