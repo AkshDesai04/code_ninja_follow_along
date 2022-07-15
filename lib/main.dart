@@ -7,6 +7,12 @@ void main() => runApp (
 				title: Text("Sup!"),
 				centerTitle: true,
 			),
-			body: Text("Sup Dude! \nThis is a Text"),
+			body: Center(
+				child: Text("Sup Dude! \nThis is a Text"),
+			),
+			floatingActionButton: FloatingActionButton(
+				onPressed: () {  },
+				child: Text("Click")
+			),
 		),
 ));
