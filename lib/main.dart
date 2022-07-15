@@ -4,7 +4,8 @@ void main() => runApp (
 	MaterialApp (
   		home: Scaffold (
 			appBar: AppBar(
-				title: Text("Sup!")
+				title: Text("Sup!"),
+				centerTitle: true,
 			),
 		),
 ));
