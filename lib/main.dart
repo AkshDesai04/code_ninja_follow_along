@@ -7,5 +7,6 @@ void main() => runApp (
 				title: Text("Sup!"),
 				centerTitle: true,
 			),
+			body: Text("Sup Dude! \nThis is a Text"),
 		),
 ));
