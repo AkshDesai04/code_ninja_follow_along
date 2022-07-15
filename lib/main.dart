@@ -17,6 +17,7 @@ void main() => runApp (
 						letterSpacing: 2,
 						color: Colors.grey[600],
 						backgroundColor: Colors.red[300],
+						fontFamily: 'PermanentMarker',
 					),
 				),
 			),
