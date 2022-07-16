@@ -10,17 +10,17 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text(
-          "Sup Dude! \nThis is a Text\nBellow is an image for u from the internet!",
-          style: TextStyle(
-            fontSize: 30,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2,
-            color: Colors.grey[600],
-            backgroundColor: Colors.red[300],
-            fontFamily: 'PermanentMarker',
-          ),
-        ),
+        // child: Text(
+        //   "Sup Dude! \nThis is a Text\nBellow is an image for u from the internet!",
+        //   style: TextStyle(
+        //     fontSize: 30,
+        //     fontWeight: FontWeight.bold,
+        //     letterSpacing: 2,
+        //     color: Colors.grey[600],
+        //     backgroundColor: Colors.red[300],
+        //     fontFamily: 'PermanentMarker',
+        //   ),
+        // ),
         // child: Image(
         //   image: NetworkImage('https://cdn.pixabay.com/photo/2020/06/08/03/13/plant-5272770_960_720.jpg'),
         // )
@@ -29,6 +29,13 @@ class Home extends StatelessWidget {
         //   image: AssetImage('assets/images/building.jpg'),
         // ),
         // child: Image.asset('assets/images/building.jpg'),
+
+        child: Icon(
+          Icons.airport_shuttle,
+          color: Colors.lightBlue,
+          size: 250,
+        ),
+
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
