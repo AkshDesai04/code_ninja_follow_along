@@ -9,7 +9,8 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
+      // body: Center(
+      body: Container(
         // child: Text(
         //   "Sup Dude! \nThis is a Text\nBellow is an image for u from the internet!",
         //   style: TextStyle(
@@ -66,11 +67,14 @@ class Home extends StatelessWidget {
         //   color: Colors.amber,
         //   ),
 
-          child: IconButton(
-            onPressed: () {},
-            icon: Icon(Icons.alternate_email),
-            color: Colors.amber
-          ),
+        //   child: IconButton(
+        //     onPressed: () {},
+        //     icon: Icon(Icons.alternate_email),
+        //     color: Colors.amber
+        //   ),
+          padding: EdgeInsets.all(100),
+          color: Colors.grey[400],
+          child: Text("Hello"),
         ),
 
       // ),
