@@ -36,11 +36,19 @@ class Home extends StatelessWidget {
         //   size: 250,
         // ),
 
-        child: RaisedButton(
-          onPressed: () {  },
-          child: Text("Button"),
-          color: Colors.lightBlue,
-        ),
+        // child: RaisedButton(
+        //   onPressed: () {  },
+        //   child: Text("Button"),
+        //   color: Colors.lightBlue,
+        // ),
+
+        // child: FlatButton(
+        //   onPressed: () {  },
+        //   child: Text("Butttton"),
+        //   color: Colors.limeAccent,
+        // ),
+
+
 
       ),
       floatingActionButton: FloatingActionButton(
