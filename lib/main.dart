@@ -48,17 +48,26 @@ class Home extends StatelessWidget {
         //   color: Colors.limeAccent,
         // ),
 
+        // child: RaisedButton(
+        //   onPressed: () {
+        //     print("Pressed...");
+        //   },
+        //   child: Text("Button"),
+        //   color: Colors.lightBlue,
+        // ),
 
-
-        child: RaisedButton(
-          onPressed: () {
-            print("Pressed...");
-          },
-          child: Text("Button"),
-          color: Colors.lightBlue,
+        child: RaisedButton.icon(
+          onPressed: () {},
+          icon: Icon(
+            Icons.mail,
+            color: Colors.blue,
+          ),
+          label: Text("Mail!!!"),
+          color: Colors.amber,
+          ),
         ),
 
-      ),
+      // ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text("Click"),
