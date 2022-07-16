@@ -21,9 +21,12 @@ class Home extends StatelessWidget {
         //     fontFamily: 'PermanentMarker',
         //   ),
         // ),
+        // child: Image(
+        //   image: NetworkImage('https://cdn.pixabay.com/photo/2020/06/08/03/13/plant-5272770_960_720.jpg'),
+        // )
         child: Image(
-          image: NetworkImage('https://cdn.pixabay.com/photo/2020/06/08/03/13/plant-5272770_960_720.jpg'),
-        )
+          image: AssetImage('assets/building.jpg'),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
