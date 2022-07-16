@@ -56,14 +56,20 @@ class Home extends StatelessWidget {
         //   color: Colors.lightBlue,
         // ),
 
-        child: RaisedButton.icon(
-          onPressed: () {},
-          icon: Icon(
-            Icons.mail,
-            color: Colors.blue,
-          ),
-          label: Text("Mail!!!"),
-          color: Colors.amber,
+        // child: RaisedButton.icon(
+        //   onPressed: () {},
+        //   icon: Icon(
+        //     Icons.mail,
+        //     color: Colors.blue,
+        //   ),
+        //   label: Text("Mail!!!"),
+        //   color: Colors.amber,
+        //   ),
+
+          child: IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.alternate_email),
+            color: Colors.amber
           ),
         ),
 
