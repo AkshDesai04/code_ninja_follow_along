@@ -73,7 +73,8 @@ class Home extends StatelessWidget {
         //     color: Colors.amber
         //   ),
         //   padding: EdgeInsets.all(100),
-          padding: EdgeInsets.symmetric(horizontal: 100, vertical: 200),
+        //   padding: EdgeInsets.symmetric(horizontal: 100, vertical: 200),
+          padding: EdgeInsets.fromLTRB(100, 150, 25, 75),
           color: Colors.grey[400],
           child: Text("Hello"),
         ),
