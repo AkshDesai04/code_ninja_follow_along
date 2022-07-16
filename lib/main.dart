@@ -81,11 +81,11 @@ class Home extends StatelessWidget {
         ),
 
       // ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Text("Click"),
-        backgroundColor: Colors.yellow[900],
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {},
+      //   child: Text("Click"),
+      //   backgroundColor: Colors.yellow[900],
+      // ),
     );
   }
 }
