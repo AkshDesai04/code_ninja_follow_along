@@ -24,9 +24,11 @@ class Home extends StatelessWidget {
         // child: Image(
         //   image: NetworkImage('https://cdn.pixabay.com/photo/2020/06/08/03/13/plant-5272770_960_720.jpg'),
         // )
-        child: Image(
-          image: AssetImage('assets/images/building.jpg'),
-        ),
+        // child: Image.network('https://cdn.pixabay.com/photo/2020/06/08/03/13/plant-5272770_960_720.jpg')
+        // child: Image(
+        //   image: AssetImage('assets/images/building.jpg'),
+        // ),
+        child: Image.asset('assets/images/building.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
