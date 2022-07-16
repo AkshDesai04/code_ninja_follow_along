@@ -72,7 +72,8 @@ class Home extends StatelessWidget {
         //     icon: Icon(Icons.alternate_email),
         //     color: Colors.amber
         //   ),
-          padding: EdgeInsets.all(100),
+        //   padding: EdgeInsets.all(100),
+          padding: EdgeInsets.symmetric(horizontal: 100, vertical: 200),
           color: Colors.grey[400],
           child: Text("Hello"),
         ),
