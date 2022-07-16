@@ -30,10 +30,16 @@ class Home extends StatelessWidget {
         // ),
         // child: Image.asset('assets/images/building.jpg'),
 
-        child: Icon(
-          Icons.airport_shuttle,
+        // child: Icon(
+        //   Icons.airport_shuttle,
+        //   color: Colors.lightBlue,
+        //   size: 250,
+        // ),
+
+        child: RaisedButton(
+          onPressed: () {  },
+          child: Text("Button"),
           color: Colors.lightBlue,
-          size: 250,
         ),
 
       ),
